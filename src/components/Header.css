@@ -1,0 +1,187 @@
+.header-container{
+    height: 82vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.header-image{
+    height: 100%;
+    width: 100%;
+    background-image: url(C:\Users\atulk\OneDrive\Desktop\Yash\PROJECTS\solar-sphere\src\assets\solarpanel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom-right-radius: 3.5rem;
+    border-bottom-left-radius: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-navbar{
+    height: 4.5rem;
+    width: 90%;
+    padding: 1rem;
+    margin: 0.8rem;
+    background-color: rgb(230, 253, 253);
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5rem;
+    align-items: center;
+}
+#logo-image{
+    height: 1.7rem;
+    width: 1.7rem;
+    border-radius: 50%;
+}
+.header-navbar-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header-navbar-heading h1{
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-navbar-pages{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    font-size: 1.2rem;
+}
+
+.header-navbar-button button{
+    background-color: rgb(54, 47, 47);
+    color: white;
+    border-radius: 5rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+.header-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 4rem;
+}
+.header-left{
+    width: 50%;
+    column-gap: 1rem;
+}
+.header-left h1{
+    padding: 5px;
+    width: 55%;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+.header-left p{
+    padding: 5px;
+    font-size: 1rem;
+    width: 70%;
+}
+.header-left button{
+    background-color: greenyellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0.6 rem; */
+    padding: 0.8rem;
+    border-radius: 5rem;
+    border: none;
+    gap: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: bold; */
+}
+
+#header-left-image{
+    height: 1rem;
+    width: 1rem;
+}
+.header-right{
+    width: 28%;
+    height: 50%;
+    display: grid;
+    gap: 1rem;
+    /* background-color: aqua; */
+
+    grid-template-areas: 
+        "div1 div2"
+        "div3 div3"
+    ;
+}
+.items{
+    background-color: rgb(103, 186, 224);
+    border: 2ps solid black;
+    /* padding: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+}
+#div1{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.3rem;
+    grid-area: div1;
+}
+#div2{
+    padding: 1rem;
+    width: 70%;
+    border-radius: 1.3rem;
+    grid-area: div2;
+}
+#div3{
+    border-radius: 5rem;
+    grid-area: div3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding-left: 10px; */
+    /* align-items: center; */
+}
+.div3-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#div3 img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 0 -6px;
+}
+.div3-right{
+    width: 50%;
+    /* margin: 5px; */
+}
+.header-footer{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+#icon-star{
+    padding: 5px;
+    gap: 1rem;
+}
+.header-footer-left{
+    width: 37%;
+}
