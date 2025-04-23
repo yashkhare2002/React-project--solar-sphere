@@ -13,7 +13,7 @@ const BlogSection = () => {
             <div className="blog-card">
                 <img src="./src/assets/blogimg1.jpg" alt="blogimg1" />
                 <div className="card-content">
-                    <p>Solar Panels vs. Solar Shingles:Which Is Right For Your Home?</p>
+                    <p>Solar Panelss vs. Solar Shingles:Which Is Right For Your Home?</p>
                     <button>Read More <img src="./src/assets/electricityicon.jpeg" alt="icon" /></button>
                 </div>
             </div>
